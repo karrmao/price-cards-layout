@@ -2,6 +2,8 @@
 
 ### [Site link](https://karrmao.github.io/price-cards-layout/)
 
+Layout supports desktop (up-to-1400) versions
+
 ### The tech stack is:
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)

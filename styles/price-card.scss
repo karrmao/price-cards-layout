@@ -43,6 +43,18 @@
     font-weight: $txt-font-weight-700;
     font-size: 55px;
     text-align: center;
+
+    &_green {
+      background-color: $bg-color-green;
+    }
+
+    &_blue {
+      background-color: $bg-color-blue;
+    }
+
+    &_orange {
+      background-color: $bg-color-orange;
+    }
   }
 
   &__desciption {
@@ -76,8 +88,19 @@
     display: inline-block;
     width: 15px;
     height: 13px;
-    // margin: 0 18px;
     margin: 0 22px;
+
+    &_green {
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+    }
+
+    &_blue {
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    }
+
+    &_orange {
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+    }
   }
 
   &__button {
@@ -90,47 +113,17 @@
     border: none;
     text-transform: uppercase;
     color: $base-text-color-white;
-  }
-}
 
-.price {
-  &_green {
-    background-color: $bg-color-green;
-  }
+    &_green {
+      background-color: $bg-color-green;
+    }
 
-  &_blue {
-    background-color: $bg-color-blue;
-  }
+    &_blue {
+      background-color: $bg-color-blue;
+    }
 
-  &_orange {
-    background-color: $bg-color-orange;
-  }
-}
-
-.icon {
-  &_green {
-    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
-  }
-
-  &_blue {
-    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
-  }
-
-  &_orange {
-    background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
-  }
-}
-
-.button {
-  &_green {
-    background-color: $bg-color-green;
-  }
-
-  &_blue {
-    background-color: $bg-color-blue;
-  }
-
-  &_orange {
-    background-color: $bg-color-orange;
+    &_orange {
+      background-color: $bg-color-orange;
+    }
   }
 }

@@ -41,6 +41,15 @@
   font-size: 55px;
   text-align: center;
 }
+.price-card__price_green {
+  background-color: #5bb189;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
+}
 .price-card__desciption {
   width: 328px;
   font-size: 15px;
@@ -70,6 +79,15 @@
   height: 13px;
   margin: 0 22px;
 }
+.price-card__icon_green {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.price-card__icon_blue {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.price-card__icon_orange {
+  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
 .price-card__button {
   margin: 39px auto 40px auto;
   padding: 11px 27px;
@@ -81,34 +99,13 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-
-.price_green {
+.price-card__button_green {
   background-color: #5bb189;
 }
-.price_blue {
+.price-card__button_blue {
   background-color: #3a6ba5;
 }
-.price_orange {
-  background-color: #ec632a;
-}
-
-.icon_green {
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
-}
-.icon_blue {
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
-}
-.icon_orange {
-  background: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
-}
-
-.button_green {
-  background-color: #5bb189;
-}
-.button_blue {
-  background-color: #3a6ba5;
-}
-.button_orange {
+.price-card__button_orange {
   background-color: #ec632a;
 }
 
