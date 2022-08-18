@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Price Cards
 
 ### [Site link](https://karrmao.github.io/price-cards-layout/)
 
